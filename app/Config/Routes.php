@@ -33,8 +33,8 @@ $routes->set404Override();
  * --------------------------------------------------------------------
  */
 
-// We get a performance increase by specifying the default
-// route since we don't have to scan directories.
+// El formato es:
+//$routes -> ('/nombre de la sección', 'Controlador:función de controlador');
 $routes->get('/', 'Home::index');   //Recibe parametros por el metodo get
 $routes->add('/contactos', 'Home::contacto');   //add es una ruta estatica
 $routes->get('/contacto', 'ContactoController::index');

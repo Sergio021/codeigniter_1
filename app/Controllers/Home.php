@@ -10,7 +10,7 @@ class Home extends BaseController
             "titulo" => "Bienvenido a codeigniter 4 :3",
             "mencion" => "Esto lo aprendi de facultad autodidacta"
         ];
-        return view('welcome_message', $datos);
+        return view('welcome_message', $datos); //manera de como enviar los datos
     }
 
     public function contacto(){
