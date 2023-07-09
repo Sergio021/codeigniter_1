@@ -1,0 +1,76 @@
+CRITICAL - 2022-12-29 17:05:55 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\ContactoController.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ContactoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ContactoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ContactoController')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\ContactoController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:06:27 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\ContactoController.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ContactoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ContactoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ContactoController')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\ContactoController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:06:53 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\ContactoController.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ContactoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ContactoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ContactoController')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\ContactoController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:50:18 --> Too few arguments to function App\Controllers\ContactoController::catalogo(), 0 passed in C:\xampp\htdocs\codeigner\system\CodeIgniter.php on line 925 and exactly 1 expected
+in APPPATH\Controllers\ContactoController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ContactoController->catalogo()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactoController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:50:44 --> Undefined variable $numero_catalogo
+in APPPATH\Controllers\ContactoController.php on line 20.
+ 1 APPPATH\Controllers\ContactoController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numero_catalogo', 'APPPATH\\Controllers\\ContactoController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ContactoController->catalogo()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:50:46 --> Undefined variable $numero_catalogo
+in APPPATH\Controllers\ContactoController.php on line 20.
+ 1 APPPATH\Controllers\ContactoController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numero_catalogo', 'APPPATH\\Controllers\\ContactoController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ContactoController->catalogo()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:50:46 --> Undefined variable $numero_catalogo
+in APPPATH\Controllers\ContactoController.php on line 20.
+ 1 APPPATH\Controllers\ContactoController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numero_catalogo', 'APPPATH\\Controllers\\ContactoController.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ContactoController->catalogo()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:51:28 --> Undefined variable $numero
+in APPPATH\Views\contacto\catalogo.php on line 3.
+ 1 APPPATH\Views\contacto\catalogo.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numero', 'APPPATH\\Views\\contacto\\catalogo.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contacto\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contacto/catalogo', [], true)
+ 5 APPPATH\Controllers\ContactoController.php(26): view('contacto/catalogo')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ContactoController->catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactoController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:51:30 --> Undefined variable $numero
+in APPPATH\Views\contacto\catalogo.php on line 3.
+ 1 APPPATH\Views\contacto\catalogo.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $numero', 'APPPATH\\Views\\contacto\\catalogo.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contacto\\catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contacto/catalogo', [], true)
+ 5 APPPATH\Controllers\ContactoController.php(26): view('contacto/catalogo')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\ContactoController->catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactoController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
